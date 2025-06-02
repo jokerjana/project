@@ -51,7 +51,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image_bgr = cv2.imread(r"C:\Users\admin\Downloads\Eagle_in_Flight (1).jpg")  
+image_bgr = cv2.imread(r"C:\Users\admin\Downloads\History of  the World Heritage Taj Mahal.jpeg")  
 image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)  
 
 plt.imshow(image_rgb)
